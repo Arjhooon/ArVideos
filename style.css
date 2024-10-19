@@ -1,0 +1,130 @@
+/* General Styles */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e7e5d9;
+  color: #333;
+
+}
+
+h5 {
+  font-weight: bold;
+  color:#5e5946;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  
+}
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #c3c1ab;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:#5e5946;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+
+/* Video Section */
+.video-player {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+
+}
+
+.video-upload h5 {
+  margin-bottom: 15px;
+  color:#5e5946;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #5e5946;
+  border: none;
+  color:white;
+}
+
+.btn-primary:hover {
+  background-color: #70684c;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Suggestions Sidebar */
+.suggestions {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.suggestions h5 {
+  font-weight: 600;
+  color:#5e5946;
+  margin-bottom: 20px;
+}
+
+.suggested-video {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.suggested-video h6 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.suggested-video p {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.suggested-video button {
+  margin-top: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    font-size: 0.9rem;
+    margin-right: 10px;
+  }
+
+  .video-player {
+    height: auto;
+  }
+
+  .suggested-video video {
+    height: 150px;
+  }
+}
